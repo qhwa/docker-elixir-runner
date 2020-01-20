@@ -31,7 +31,8 @@ This is a small docker runner image for [Elixir](https://elixir-lang.org) projec
 
 ## Conventions
 
-The application is supposed to be located at `/app/$APP_NAME` where `APP_NAME` is the shell variable holding the project name, such as `"my_app"` for instance.
+* The application is supposed to be located at `/app`, no matter what name the project is.
+* Shell variable `APP_NAME` represents the project name, such as `my_app` for instance.
 
 ## What if I need more programs pre-installed?
 
