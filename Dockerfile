@@ -19,4 +19,4 @@ ENV APP_NAME example
 COPY console /usr/bin/console
 
 WORKDIR /app
-ENTRYPOINT /app/bin start
+ENTRYPOINT /app/bin/$APP_NAME start
