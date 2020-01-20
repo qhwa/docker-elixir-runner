@@ -28,7 +28,7 @@ This is a small docker runner image for [Elixir](https://elixir-lang.org) projec
     * *watch* - Execute a program periodically, showing output fullscreen
   * [iftop](http://www.ex-parrot.com/pdw/iftop/)
   * [systat](http://sebastien.godard.pagesperso-orange.fr/)
-* ship with recent version of [Glibc](https://www.gnu.org/software/libc/) to provide better [Erlang NIF](http://erlang.org/doc/tutorial/nif.html) support for Golang extensions
+  * recent version of [Glibc](https://www.gnu.org/software/libc/) to provide better [Erlang NIF](http://erlang.org/doc/tutorial/nif.html) support for Golang extensions
 
 ## Conventions
 

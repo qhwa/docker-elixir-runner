@@ -16,7 +16,7 @@ RUN apk update --no-cache && \
     procps
 
 ENV APP_NAME example
-ENV GLIBC_VERSION 2.29-r0
+ENV GLIBC_VERSION 2.30-r0
 
 RUN apk add --update curl && \
   curl -sSLo /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub && \
