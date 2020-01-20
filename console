@@ -1,0 +1,2 @@
+#!/bin/bash
+/app/bin/$APP_NAME remote_console
