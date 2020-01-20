@@ -1,6 +1,6 @@
 # Elixir Runner Docker Image
 
-This is a small docker runner image for [Elixir](https://elixir-lang.org) projects.
+This is a small base docker image for running [Elixir](https://elixir-lang.org) projects.
 
 ## Features
 

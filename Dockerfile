@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.11
 
 ARG apk_mirror=dl-cdn.alpinelinux.org
 
