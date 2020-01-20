@@ -31,6 +31,7 @@ This is a small docker runner image for [Elixir](https://elixir-lang.org) projec
 
 ## Conventions
 
+* The project is supposed to deploy with [`mix release`](https://hexdocs.pm/mix/Mix.Tasks.Release.html) introduced in Elixir 1.9
 * The application is supposed to be located at `/app`, no matter what name the project is.
 * Shell variable `APP_NAME` represents the project name, such as `my_app` for instance.
 
