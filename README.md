@@ -4,7 +4,7 @@ This is a small base docker image for running [Elixir](https://elixir-lang.org) 
 
 ## Features
 
-* **small** - based on [Alpine Linux](https://alpinelinux.org/about/)
+* **small** - based on [Alpine Linux](https://alpinelinux.org/about/), ~20MB
 * **developer friendly** - out of box with pre-installed utilities, including:
   * bash
   * iftop
